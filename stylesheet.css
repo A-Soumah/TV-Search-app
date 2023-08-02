@@ -1,3 +1,10 @@
+body{
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:50px ;
+}
 
 #title {
   font-size: 24px;
@@ -31,7 +38,7 @@
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 16 16px;
+  gap: 16px 16px;
   justify-content: space-between;
 }
 
